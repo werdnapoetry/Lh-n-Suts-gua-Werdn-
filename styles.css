@@ -98,3 +98,17 @@ footer{
 .dropdown:hover .dropdown-content{
     display:block;
 }
+/* Mobile-friendly dropdown */
+
+@media (hover: none) {
+
+.dropdown-content{
+    position:static;
+    border:none;
+}
+
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+
+}
